@@ -23,3 +23,8 @@ def read_yaml(path):
             )
             raise ValueError(info) from error
     return out
+
+def foo():
+    """Test function."""
+    print("Hello world!")
+    pass
